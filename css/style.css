@@ -1,3 +1,27 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
+
+.nav-bar {
+    position: fixed;
+    padding: 1.25rem;
+    height: 100vh;
+}
+
+.nav-bar .menu-parent-container {
+    gap: 1.9rem;
+}
+
+.nav-bar .menu-item {
+    gap: 0.7rem;
+}
+
+
+.feed-container {
+    max-width: 630px;
+    height: 2000px;
+}
+
+.profile-container {
+    padding-left: 64px;
+}
