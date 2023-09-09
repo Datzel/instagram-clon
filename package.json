@@ -1,0 +1,25 @@
+{
+  "name": "instagram-clon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Datzel/instagram-clon.git"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "Studio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Datzel/instagram-clon/issues"
+  },
+  "homepage": "https://github.com/Datzel/instagram-clon#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
