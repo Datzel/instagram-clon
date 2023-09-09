@@ -8,14 +8,34 @@ body {
     height: 100vh;
 }
 
-.nav-bar .menu-parent-container {
-    gap: 1.9rem;
+.menu-child-container {
+    height: 800px;
+}
+
+.nav-bar .menu-child-container {
+    gap: 0.5rem;
 }
 
 .nav-bar .menu-item {
     gap: 0.7rem;
+    border-radius: 10px;
+    transition: all 0.3s;
+    padding: 14px;
 }
 
+
+.nav-bar .menu-item:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.menu-icon {
+    transition: all 0.2s;
+}
+
+.nav-bar .menu-item:hover>.menu-icon {
+    scale: 1.1;
+}
 
 .feed-container {
     max-width: 630px;
