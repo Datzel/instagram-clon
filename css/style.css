@@ -45,3 +45,22 @@ body {
 .profile-container {
     padding-left: 64px;
 }
+
+.pfp-stories {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1.5px solid rgb(211, 211, 211);
+    border-radius: 50%;
+}
+
+.pfp-stories img {
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 55px;
+    border-radius: 50%;
+
+}
