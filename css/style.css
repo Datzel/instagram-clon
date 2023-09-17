@@ -62,5 +62,199 @@ body {
     height: 55px;
     border-radius: 50%;
     cursor: pointer;
+}
 
+#home-page{
+    display: none;
+}
+
+.main-login{
+    height: 85%;
+    padding: 30px;
+}
+
+.footer-login{
+    height: 15%;
+}
+
+.feed-container{
+    display: none;
+}
+
+.mockup{
+    padding: 0;
+}
+.con-form{
+    padding: 0;    
+}
+
+.cell{
+    width: 100%;
+}
+
+
+
+
+
+
+.footer-login{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-links{
+    height: 25%;
+    margin: 0;
+}
+
+.footer-copyright{
+    height: 25%;
+    margin: 0;
+}
+
+.links-i{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.text-link{
+    font-size: 13px;
+    color: darkgray;
+}
+
+.logo-con img{
+    width: 175px;
+    height: 51;
+}
+
+.form-todo{
+    width: 80%;
+    border: 1px lightgray solid;
+}
+
+.logo-con{
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+
+.form-control{
+    font-size: 12px;
+
+    border-radius: 0 0 0 0;
+}
+
+.datos-form{
+    margin-top: 24px;
+}
+
+.form{
+    margin-bottom: 5px;
+}
+
+.form-group{
+    width: 80%;
+}
+
+.btn{
+    width: 100%;
+    background-color: rgb(0, 149, 246);
+
+}
+.boton{
+    padding: 9px 0 7px 8px;
+}
+
+.border{
+    border-width: 100px;
+    border: darkgray;
+}
+
+.linea-left{
+    width: 100%;
+    margin-left: 10%;
+}
+
+.linea-right{
+    width: 100%;
+    margin-right: 10%;
+}
+
+.o-margin{
+    margin: 0 10px 0 10px;
+}
+
+hr{
+    opacity: 20%;
+}
+
+.login-face{
+    font-size: 14px;
+    font-weight:bold;
+    color: #385185;
+}
+
+.logo-facebook img{
+    width: 16px;
+    margin-right: 10px;
+}
+
+.forgot-pass a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #385185;
+}
+.forgot-pass{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.register{
+    width: 80%;
+    border: 1px lightgray solid;
+    margin-top: 12px;
+}
+
+
+.register span{
+    font-size: 15px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.register span a{
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.download-app{
+    width: 80%;
+    margin-top: 12px;
+}
+
+.download-app img{
+    width: 130px;
+}
+.descarga-texto span{
+    font-size: 14px;
+}
+
+.img-descarga{
+    margin-right: 10px;
+}
+
+.descarga-texto{
+    margin-bottom: 16px;
+    margin-top: 4px;
+}
+
+.select-class{
+    font-size: 12px;
+    position: absolute;
+    background-color: #fff;
+    color: #1c1e21;
+    border: 1px solid #ccd0d5;
+    padding: 2px;
+    overflow: visible;
+    border: none;
 }
