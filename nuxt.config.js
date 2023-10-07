@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'instagram-ui',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ts'
     },
     meta: [
       { charset: 'utf-8' },

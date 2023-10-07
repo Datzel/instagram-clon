@@ -222,14 +222,12 @@
 
 <script>
 export default {
+  layout: "empty",
   name: "IndexPage",
 };
 </script>
 <style>
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif;
-}
+
 
 .nav-bar {
   position: fixed;
