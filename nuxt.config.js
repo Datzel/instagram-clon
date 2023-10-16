@@ -1,7 +1,9 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
-
+  formulate: {
+    configPath: '@/plugins/formulate.config.js'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'instagram-ui',
@@ -21,6 +23,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@/assets/formulate.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -32,6 +35,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@braid/vue-formulate/nuxt'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
