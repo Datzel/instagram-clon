@@ -330,6 +330,20 @@ body {
     Arial, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+.primary-btn {
+  background-color: #4cb5f9;
+  color: #ffff;
+  border: none;
+  width: 100%;
+  padding: 0.35rem 0rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
 .nav-bar {
   position: fixed;
   height: 100vh;

@@ -22,7 +22,11 @@
               <Icon icon="logos:instagram" width="11rem" />
             </div>
             <template>
-              <FormulateForm class="w-100" v-model="loginForm">
+              <FormulateForm
+                @submit="doSignIn"
+                class="w-100"
+                v-model="loginForm"
+              >
                 <FormulateInput
                   name="user"
                   type="text"
@@ -35,16 +39,10 @@
                   type="password"
                   label=""
                   placeholder="Contraseña"
-                  validation="required"
+                  validation="required||min:8"
                 />
 
-                <FormulateInput class="m-0" type="submit" label="Entrar"
-                  ><template #default>
-                    <buttonContent class="w-100 text-center"
-                      >Entrar
-                    </buttonContent>
-                  </template>
-                </FormulateInput>
+                <input type="submit" class="primary-btn small" value="Entrar" />
               </FormulateForm>
             </template>
             <div class="divider">
@@ -58,10 +56,17 @@
                 Iniciar sesión con facebook
               </p>
             </div>
-            <a class="small mt-3">¿Has olvidado la contraseña?</a>
+            <a class="mt-3" style="font-size: small; cursor: pointer"
+              >¿Has olvidado la contraseña?</a
+            >
           </div>
           <div class="login-form border mt-3">
-            <span class="small">¿No tienes una cuenta? <a>Registrate</a></span>
+            <span class="small"
+              >¿No tienes una cuenta?
+              <a style="font-weight: 600; color: #4cb5f9; cursor: pointer"
+                >Registrate</a
+              ></span
+            >
           </div>
         </b-col>
         <footer>
@@ -111,8 +116,15 @@ export default {
         "Meta Verified",
       ],
 
-      loginForm: [],
+      loginForm: {},
     };
+  },
+
+  methods: {
+    doSignIn() {
+      localStorage.setItem("user", JSON.stringify(this.loginForm));
+      this.$router.push("/feed");
+    },
   },
 };
 </script>
